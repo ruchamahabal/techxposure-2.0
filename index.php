@@ -7,30 +7,57 @@
     <h1 id="header-text" >TechXposure 2.0</h1>
   </div>
 </section>
+
+
 <!--ABOUT US -->
 <div id="about-us2">
   <h1><center>ABOUT US</center></h1>
-    <section id="about-somaiya">
-      <div class="row">
-          <div class="col content">
-              <h2>S.K. Somaiya College</h2>
-              <p>The College is one of the few young institutions of Somaiya Vidyavihar campus which has, within a very short span established a prestigious name in the field of education. The college made a modest beginning in the year 1995 with 300 students offering just two educational streams. Today it proudly boasts of educating more than 5500 students every year and offering 15 diverse Under-Graduate, Post-Graduate courses.</p>
-          </div>
-          <div class="col image-box">
-          </div>
+  <section id="about-somaiya">
+    <div class="row">
+        <div class="col content">
+            <h2>S.K. Somaiya College</h2>
+            <p>The College is one of the few young institutions of Somaiya Vidyavihar campus which has, within a very short span established a prestigious name in the field of education. The college made a modest beginning in the year 1995 with 300 students offering just two educational streams. Today it proudly boasts of educating more than 5500 students every year and offering 15 diverse Under-Graduate, Post-Graduate courses.</p>
         </div>
-    </section>
-    <section id="about-txp">
-      <div class="row">
-          <div class="col image-box">
-          </div>
-          <div class="col content">
-              <h2>TechXposure 2.0</h2>
-              <p>TechXposure 2.0, the most celebrated Techno-Cultural fest of the year, is personified by the next generation's charisma and exuberance, brought to life by the SK Somaiya CS & IT department. "The Stepping Stone to Greatness is Competitiveness" hence the SK Somaiya family bring you this great opportunity to flaunt your artistic skills, groovy moves and play the most nerve wracking and brain teasing tech challenges.</p>
-          </div>
-      </div>
-    </section>
+        <div class="col image-box">
+        </div>
     </div>
+  </section>
+  <section id="about-txp">
+    <div class="row">
+        <div class="col image-box">
+        </div>
+        <div class="col content">
+            <h2>TechXposure 2.0</h2>
+            <p>TechXposure 2.0, the most celebrated Techno-Cultural fest of the year, is personified by the next generation's charisma and exuberance, brought to life by the SK Somaiya CS & IT department. "The Stepping Stone to Greatness is Competitiveness" hence the SK Somaiya family bring you this great opportunity to flaunt your artistic skills, groovy moves and play the most nerve wracking and brain teasing tech challenges.</p>
+        </div>
+    </div>
+  </section>
+</div>
+
+<div id="about-us-mobile">
+  <h1><center>ABOUT US</center></h1>
+  <div class="container">
+    <div class="row">
+      <div class="col" id="about-sk-mobile-content">
+        <h2 align=center>S.K. Somaiya College</h2>
+        <p>The College is one of the few young institutions of Somaiya Vidyavihar campus which has, within a very short span established a prestigious name in the field of education. The college made a modest beginning in the year 1995 with 300 students offering just two educational streams. Today it proudly boasts of educating more than 5500 students every year and offering 15 diverse Under-Graduate, Post-Graduate courses.</p>
+      </div>
+      <div class="col" >
+        <img id="about-sk-mobile-image" src="assets/images/SK.jpg">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col" id="about-txp-mobile-content">
+        <h2 align=center>TechXposure 2.0</h2>
+        <p>TechXposure 2.0, the most celebrated Techno-Cultural fest of the year, is personified by the next generation's charisma and exuberance, brought to life by the SK Somaiya CS & IT department. "The Stepping Stone to Greatness is Competitiveness" hence the SK Somaiya family bring you this great opportunity to flaunt your artistic skills, groovy moves and play the most nerve wracking and brain teasing tech challenges.</p>       
+      </div>
+      <div class="col">
+        <img id="about-txp-mobile-image" src="assets/images/txp-team.jpg">
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!-- ABOUT US -->
 <!-- <div id="bg-colored-about-us">
@@ -50,8 +77,9 @@
 </section>
 </div> -->
 
-<!-- ABOUT US -->
-<section id="about-us" class="about-us">
+<!-- ABOUT US OLD-->
+
+<!-- <section id="about-us" class="about-us">
   <h1><center>ABOUT US</center></h1>
 
   <div class="row outer-row">
@@ -66,8 +94,7 @@
             <div class="col-8 about-us-icon-title" id="about-us-icon-title">
               <h4>S.K. Somaiya College</h4>
             </div>
-            <!-- <span class="float-left"><img class="icon-edu img-fluid" src="assets/icons/edu.png"></span>
-            <span ><h4>S.K. Somaiya College</h4></span> -->
+            
           </div><br>
           <div class="">
             <p id="about-us-text1">The College is one of the few young institutions of Somaiya Vidyavihar campus which has, within a very short span established a prestigious name in the field of education. The college made a modest beginning in the year 1995 with 300 students offering just two educational streams. Today it proudly boasts of educating more than 5500 students every year and offering 15 diverse Under-Graduate, Post-Graduate courses.</p>
@@ -83,13 +110,9 @@
           <div class="col-8 about-us-icon-title" id="about-us-icon-title">
             <h4>TechXposure 2.0</h4>
           </div>
-          <!-- <span class="float-left"><img class="icon-edu img-fluid" src="assets/icons/edu.png"></span>
-          <span ><h4>S.K. Somaiya College</h4></span> -->
+          
         </div><br>
-          <!-- <div class="">
-            <span class="float-left"><img class="icon-tech" src="assets/icons/technology.png"></span>
-            <span class=""><h4>TechXposure 2.0</h4></span>
-          </div><br> -->
+          
           <div class="">
            <p id="about-us-text2">TechXposure 2.0, the most celebrated Techno-Cultural fest of the year, is personified by the next generation's charisma and exuberance, brought to life by the SK Somaiya CS & IT department. "The Stepping Stone to Greatness is Competitiveness" hence the SK Somaiya family bring you this great opportunity to flaunt your artistic skills, groovy moves and play the most nerve wracking and brain teasing tech challenges.</p>
          </div>
@@ -98,7 +121,7 @@
         <img src="assets/images/txp-team.jpg" class="rounded image-card" alt="NA">
       </div>
   </div>
-</section>
+</section> -->
 
 
 	<!-- TECH EVENTS -->
@@ -201,7 +224,7 @@
   </div>
   <div>
     <div class="row event-row" align=center>
-      <div class="col">
+      <div class="col" id="hidden-col1">
       </div>
       <div class="col">
         <div class="card tech-card gradient-shadow">
@@ -223,7 +246,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col" id="hidden-col2">
       </div>
     </div>
   </div>

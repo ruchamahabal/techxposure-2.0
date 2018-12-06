@@ -54,7 +54,9 @@ video{
 }
 #about-us2{
   background: #1C2022;
-  padding-top:70px;
+  padding-top:50px;
+  padding-bottom: 100px;
+  
 }
 #about-us2 h1{
   color:white;
@@ -138,11 +140,65 @@ video{
     box-sizing: border-box;
     border-right: 100px solid #053653;
     border-bottom: 400px solid transparent;
-    background: url('../assets/images/txp-team.JPG');
+    background: url('../assets/images/txp-team.png');
     /* background-position:0px 20px; */
     /* background-size: cover; */
     background-repeat: no-repeat;
 }
+
+#about-us-mobile{
+  background: #1C2022;
+  display: none;
+  padding: 80px 0;
+}
+#about-us-mobile h1{
+  color:white;
+  font-family: protos, serif;
+  padding-bottom: 50px;
+}
+
+#about-us-mobile h2{
+  font-family: protos, serif;
+  padding: 15px;
+  font-size: 25px;
+}
+
+#about-sk-mobile-content{
+  color: #fff;
+  max-width: 400px;
+  height: 350px;
+  background: #039FB6;
+  box-sizing: border-box;
+  margin:0 10px;
+  padding-bottom:25px;
+}
+
+#about-sk-mobile-image{
+  max-width: 400px;
+  height: 300px;
+  margin-right: 10px;
+  margin-left: -5px;
+}
+
+#about-txp-mobile-content{
+  color: #fff;
+  max-width: 400px;
+  height: 350px;
+  background: #053653;
+  box-sizing: border-box;
+  margin:0 10px;
+  padding-top:20px;
+  padding-bottom:25px;
+  margin-top:30px;
+}
+
+#about-txp-mobile-image{
+  max-width: 400px;
+  height: 300px;
+  margin-right: 10px;
+  margin-left: -5px;
+}
+
 /* ABOUT US */
 #bg-colored-about-us{
 	background: #e90089;
@@ -375,7 +431,7 @@ video{
     object-fit: cover;
 }
 #tech-events .tech-card{
-   width: 18rem;
+   width: 300px;
    margin:50px 0;
 }
 #tech-events .tech-card-title{
@@ -389,7 +445,7 @@ video{
   margin-top: 50px;
 }
 
-#tech-events p{
+/* #tech-events p{
   color:white;
   font-family: 'Source Sans Pro', sans-serif;
   margin-top: 120px;
@@ -397,7 +453,7 @@ video{
   margin-bottom: 30px;
   margin-right: 10px;
   margin-left: 40px;
-}
+} */
 #tech-events .card{
   padding-bottom: 20px;
   border:none;
@@ -795,7 +851,7 @@ padding:70px 0px 0px 0px;
 }
 }
 
-@media only screen and (max-width: 400px), only screen and (max-device-width: 400px) {
+@media only screen and (max-width:400px), only screen and (max-device-width: 400px) {
   #hero-section{
     height:600px;
   }
@@ -836,9 +892,15 @@ padding:70px 0px 0px 0px;
     margin-left:-40px;
     margin-right:-40px;
   }
-  #tech-events .col{
-    margin-left: -25px;
+  /* #tech-events .col{
+    margin-left: -10px;
+    margin-right: -10px;
+  } */
+
+  #hidden-col1 , #hidden-col2{
+    display: none;
   }
+
   #tech-events h1{
     padding-top:20px;
     margin-right:-40px;
@@ -850,13 +912,13 @@ padding:70px 0px 0px 0px;
     padding-top:20px;
   }
 
-  #sub-events .col-md-3{
+  /* #sub-events .col-md-3{
     margin-left:-25px;
-  }
+  } */
   #maps {
     max-width: 420px;
   }
-  #footer {
+  #footer { 
     margin-top:-5px;
   }
 }
@@ -905,10 +967,20 @@ padding:70px 0px 0px 0px;
     margin-left:-40px;
     margin-right:-40px;
   }
-  #tech-events .col{
+  #about-us-mobile {
+    display: block
+  }
+  #about-us2 {
+    display: none;
+  }
+  /* #tech-events .col{
     margin-left: -20px;
     margin-right: -20px;
+  } */
+   #hidden-col1 , #hidden-col2{
+    display: none;
   }
+
   #tech-events h1{
     padding-top:20px;
     margin-right:-40px;
@@ -920,10 +992,10 @@ padding:70px 0px 0px 0px;
     padding-top:20px;
   }
 
-  #sub-events .col-md-3{
+  /* #sub-events .col-md-3{
     margin-left:-25px;
     margin-right:-25px;
-  }
+  } */
   #maps {
     max-width: 420px;
   }
