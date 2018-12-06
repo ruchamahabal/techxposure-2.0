@@ -56,7 +56,7 @@ video{
   background: #1C2022;
   padding-top:50px;
   padding-bottom: 100px;
-  
+
 }
 #about-us2 h1{
   color:white;
@@ -606,6 +606,9 @@ padding:70px 0px 0px 0px;
   margin-top: 30px;
   margin-bottom: 50px;
 }
+#sub-events .card-text{
+  margin-bottom: 30px;
+}
 #sub-events .card-container:hover .card-front{
   transform: rotateY(180deg);
 }
@@ -720,7 +723,7 @@ padding:70px 0px 0px 0px;
   background: linear-gradient(-45deg, #00fff4,#00e5db,#00ccc3,#00b2aa,#009992,#007f7a);
 }
 .price-card::before{
-  
+
   position: absolute;
   bottom: 0;
   left: 0;
@@ -912,7 +915,7 @@ padding:70px 0px 0px 0px;
   #maps {
     max-width: 420px;
   }
-  #footer { 
+  #footer {
     margin-top:-5px;
   }
 }

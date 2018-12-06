@@ -27,7 +27,7 @@
     <!-- navbar-->
     <header class="site-header" role="banner">
       <nav id="navbar-main" class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <img id="navbar-logo" src="assets\images\txp-logo.png" width="160" height="90" alt="">
+        <img id="navbar-logo" src="assets\images\txp-logo.png" width="110" height="60" alt="">
         <h3><a class="navbar-brand" href="#hero-section">Techxposure 2.0</a></h3>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>

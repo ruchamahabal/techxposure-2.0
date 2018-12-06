@@ -22,7 +22,7 @@
     </div>
     <div class="row" id="about-txp-mobile-content">
       <h2 align=center>TechXposure 2.0</h2>
-      <p>TechXposure 2.0, the most celebrated Techno-Cultural fest of the year, is personified by the next generation's charisma and exuberance, brought to life by the SK Somaiya CS & IT department. "The Stepping Stone to Greatness is Competitiveness" hence the SK Somaiya family bring you this great opportunity to flaunt your artistic skills, groovy moves and play the most nerve wracking and brain teasing tech challenges.</p>       
+      <p>TechXposure 2.0, the most celebrated Techno-Cultural fest of the year, is personified by the next generation's charisma and exuberance, brought to life by the SK Somaiya CS & IT department. "The Stepping Stone to Greatness is Competitiveness" hence the SK Somaiya family bring you this great opportunity to flaunt your artistic skills, groovy moves and play the most nerve wracking and brain teasing tech challenges.</p>
     </div>
     <div class="row">
       <img id="about-txp-mobile-image" src="assets/images/txp-team.jpg">
@@ -92,7 +92,7 @@
             <div class="col-8 about-us-icon-title" id="about-us-icon-title">
               <h4>S.K. Somaiya College</h4>
             </div>
-            
+
           </div><br>
           <div class="">
             <p id="about-us-text1">The College is one of the few young institutions of Somaiya Vidyavihar campus which has, within a very short span established a prestigious name in the field of education. The college made a modest beginning in the year 1995 with 300 students offering just two educational streams. Today it proudly boasts of educating more than 5500 students every year and offering 15 diverse Under-Graduate, Post-Graduate courses.</p>
@@ -108,9 +108,9 @@
           <div class="col-8 about-us-icon-title" id="about-us-icon-title">
             <h4>TechXposure 2.0</h4>
           </div>
-          
+
         </div><br>
-          
+
           <div class="">
            <p id="about-us-text2">TechXposure 2.0, the most celebrated Techno-Cultural fest of the year, is personified by the next generation's charisma and exuberance, brought to life by the SK Somaiya CS & IT department. "The Stepping Stone to Greatness is Competitiveness" hence the SK Somaiya family bring you this great opportunity to flaunt your artistic skills, groovy moves and play the most nerve wracking and brain teasing tech challenges.</p>
          </div>
@@ -138,7 +138,7 @@
           <div class="card-body">
             <h5 class="tech-card-title card-title">Code Mapper</h5>
             <!-- <p class="card-text"style="margin-top:0;">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="#" name="event1" data-toggle="modal" data-event="CodeMapper" data-target="#eventsModal" id="Event1" class="btn Event1 gradient-button">know more</a>
+            <a href="#" name="event1" data-toggle="modal" data-event="CodeMapper" data-target="#eventsModal" id="Event1" class="btn Tech gradient-button">know more</a>
           </div>
         </div>
       </div>
@@ -149,7 +149,7 @@
           <div class="card-body">
             <h5 class="tech-card-title card-title">Error Hunt</h5>
             <!-- <p class="card-text"style="margin-top:0;">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="#" name="event1" data-toggle="modal" data-event="Error Hunt" data-target="#eventsModal" id="Event1" class="btn Event1 gradient-button">know more</a>
+            <a href="#" name="event1" data-toggle="modal" data-event="Error Hunt" data-target="#eventsModal" id="Event1" class="btn Tech gradient-button">know more</a>
           </div>
         </div>
       </div>
@@ -160,7 +160,7 @@
           <div class="card-body">
             <h5 class="tech-card-title card-title">Code In Less</h5>
             <!-- <p class="card-text"style="margin-top:0;">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="#" name="event1" data-toggle="modal" data-event="Code In Less" data-target="#eventsModal" id="Event1" class="btn Event1 gradient-button">know more</a>
+            <a href="#" name="event1" data-toggle="modal" data-event="Code In Less" data-target="#eventsModal" id="Event1" class="btn Tech gradient-button">know more</a>
           </div>
         </div>
       </div>
@@ -170,7 +170,7 @@
           <div class="card-body">
             <h5 class="tech-card-title card-title">Photoshop</h5>
             <!-- <p class="card-text"style="margin-top:0;">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="#" name="event1" data-toggle="modal" data-event="Photoshop" data-target="#eventsModal" id="Event1" class="btn Event1 gradient-button">know more</a>
+            <a href="#" name="event1" data-toggle="modal" data-event="Photoshop" data-target="#eventsModal" id="Event1" class="btn Tech gradient-button">know more</a>
           </div>
         </div>
       </div>
@@ -184,7 +184,7 @@
           <div class="card-body">
             <h5 class="tech-card-title card-title">Quiz</h5>
             <!-- <p class="card-text"style="margin-top:0;">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="#" name="event1" data-toggle="modal" data-event="Quiz" data-target="#eventsModal" id="Event1" class="btn Event1 gradient-button">know more</a>
+            <a href="#" name="event1" data-toggle="modal" data-event="Quiz" data-target="#eventsModal" id="Event1" class="btn Tech gradient-button">know more</a>
           </div>
         </div>
       </div>
@@ -194,7 +194,7 @@
           <div class="card-body">
             <h5 class="tech-card-title card-title">Tech Debate</h5>
             <!-- <p class="card-text"style="margin-top:0;">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="#" name="event1" data-toggle="modal" data-event="Tech Debate" data-target="#eventsModal" id="Event1" class="btn Event1 gradient-button">know more</a>
+            <a href="#" name="event1" data-toggle="modal" data-event="Tech Debate" data-target="#eventsModal" id="Event1" class="btn Tech gradient-button">know more</a>
           </div>
         </div>
       </div>
@@ -204,7 +204,7 @@
           <div class="card-body">
             <h5 class="tech-card-title card-title">Web Designing</h5>
             <!-- <p class="card-text"style="margin-top:0;">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="#" name="event1" data-toggle="modal" data-event="Web Designing" data-target="#eventsModal" id="Event1" class="btn Event1 gradient-button">know more</a>
+            <a href="#" name="event1" data-toggle="modal" data-event="Web Designing" data-target="#eventsModal" id="Event1" class="btn Tech gradient-button">know more</a>
           </div>
         </div>
       </div>
@@ -214,7 +214,7 @@
           <div class="card-body">
             <h5 class="tech-card-title card-title">Blind Coding</h5>
             <!-- <p class="card-text"style="margin-top:0;">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="#" name="event1" data-toggle="modal" data-event="Blind Coding" data-target="#eventsModal" id="Event1" class="btn Event1 gradient-button">know more</a>
+            <a href="#" name="event1" data-toggle="modal" data-event="Blind Coding" data-target="#eventsModal" id="Event1" class="btn Tech gradient-button">know more</a>
           </div>
         </div>
       </div>
@@ -222,7 +222,17 @@
   </div>
   <div>
     <div class="row event-row" align=center>
-      <div class="col" id="hidden-col1">
+      <!-- <div class="col" id="hidden-col1">
+      </div> -->
+      <div class="col">
+        <div class="card tech-card gradient-shadow">
+          <img class="card-img-top" src="assets\images\tech-events\PPT Presentation.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="tech-card-title card-title">PPT Competition</h5>
+            <!-- <p class="card-text"style="margin-top:0;">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <a href="#" name="event1" data-toggle="modal" data-event="Tech PPT Competition" data-target="#eventsModal" id="Event1" class="btn Tech gradient-button">know more</a>
+          </div>
+        </div>
       </div>
       <div class="col">
         <div class="card tech-card gradient-shadow">
@@ -230,7 +240,7 @@
           <div class="card-body">
             <h5 class="tech-card-title card-title">Switch Hero</h5>
             <!-- <p class="card-text"style="margin-top:0;">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="#" name="event1" data-toggle="modal" data-event="Switch Hero" data-target="#eventsModal" id="Event1" class="btn Event1 gradient-button">know more</a>
+            <a href="#" name="event1" data-toggle="modal" data-event="Switch Hero" data-target="#eventsModal" id="Event1" class="btn Tech gradient-button">know more</a>
           </div>
         </div>
       </div>
@@ -240,11 +250,19 @@
           <div class="card-body">
             <h5 class="tech-card-title card-title">Code Relay</h5>
             <!-- <p class="card-text"style="margin-top:0;">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="#" name="event1" data-toggle="modal" data-event="Code Relay" data-target="#eventsModal" id="Event1" class="btn Event1 gradient-button">know more</a>
+            <a href="#" name="event1" data-toggle="modal" data-event="Code Relay" data-target="#eventsModal" id="Event1" class="btn Tech gradient-button">know more</a>
           </div>
         </div>
       </div>
-      <div class="col" id="hidden-col2">
+      <div class="col">
+        <div class="card tech-card gradient-shadow">
+          <img class="card-img-top" src="assets\images\tech-events\Exhibition.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="tech-card-title card-title">Tech Exhibition</h5>
+            <!-- <p class="card-text"style="margin-top:0;">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <a href="#" name="event1" data-toggle="modal" data-event="Tech Exhibition" data-target="#eventsModal" id="Event1" class="btn Tech gradient-button">know more</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -261,66 +279,64 @@
             <div class="card text-center price-card">
               <div class="title">
                 <!-- <i class="fa fa-music"></i> -->
-                <img class="culturalIcon" src="assets\icons\Dance Battle.svg" alt="NA">
+                <img class="culturalIcon" src="assets\images\fine-arts-events\Quilling.svg" alt="NA">
                 <h2>Quilling</h2>
               </div>
               <div class="price">
-                <h4>Registration Fees: NA</h4>
+                <h4>Registration Fees: FREE</h4>
               </div>
               <div class="option">
                 <ul>
-                  <li>Details</li>
-                  <li>Rules: NA</li>
-                  <li>Time: NA</li>
+                  <li>Description</li>
+                  <li>Time: 1 hr 30 mins</li>
                   <li>No of Members: SOLO</li>
                   <li>Prize: NA</li>
                 </ul>
               </div>
-              <a href="#" name="culturalEvent" data-toggle="modal" data-target="#registerModal">Register Now</a>
+              <a href="#" name="event1" data-toggle="modal" data-event="Quilling" data-target="#eventsModal" id="Event1" class="Fine-Arts">Know More</a>
+              <!-- <a href="#" name="culturalEvent" data-toggle="modal" data-target="#registerModal">Register Now</a> -->
             </div>
           </div>
           <div class="col">
             <div class="card text-center price-card">
               <div class="title">
                 <!-- <i class="fa fa-paper-plane"></i> -->
-                <img class="culturalIcon" src="assets\icons\Instrumental.svg" alt="NA">
-                <h2>T-Shirt Paintaing</h2>
+                <img class="culturalIcon" src="assets\images\fine-arts-events\T Shirt Painting.svg" alt="NA">
+                <h2>T-Shirt Painting</h2>
               </div>
               <div class="price">
-                <h4>Registration Fees: NA</h4>
+                <h4>Registration Fees: FREE</h4>
               </div>
               <div class="option">
                 <ul>
-                  <li>Details</li>
-                  <li>Rules: NA</li>
-                  <li>Time: NA</li>
-                  <li>No of Members: 1 to 5</li>
+                  <li>Description</li>
+                  <li>Time: 1 hr 30 mins</li>
+                  <li>No of Members: SOLO</li>
                   <li>Prize: NA</li>
                 </ul>
               </div>
-              <a href="#" name="culturalEvent" data-toggle="modal" data-target="#registerModal">Register Now</a>
+              <a href="#" name="event1" data-toggle="modal" data-event="T-Shirt Painting" data-target="#eventsModal" id="Event1" class="Fine-Arts">Know More</a>
             </div>
           </div>
           <div class="col">
             <div class="card text-center price-card">
               <div class="title">
                 <!-- <i class="fa fa-paper-plane"></i> -->
-                <img class="culturalIcon" src="assets\icons\Instrumental.svg" alt="NA">
-                <h2>Best out of E-Waste</h2>
+                <img class="culturalIcon" src="assets\images\fine-arts-events\Best Out Of EWaste.svg" alt="NA">
+                <h2>Best Out of E-Waste</h2>
               </div>
               <div class="price">
-                <h4>Registration Fees: NA</h4>
+                <h4>Registration Fees: Rs.30</h4>
               </div>
               <div class="option">
                 <ul>
-                  <li>Details</li>
-                  <li>Rules: NA</li>
-                  <li>Time: NA</li>
-                  <li>No of Members: 1 to 5</li>
-                  <li>Prize: NA</li>
+                  <li>Description</li>
+                  <li>Time: 2 hrs</li>
+                  <li>No of Members: 2</li>
+                  <li>Prize: Rs. 500</li>
                 </ul>
               </div>
-              <a href="#" name="culturalEvent" data-toggle="modal" data-target="#registerModal">Register Now</a>
+              <a href="#" name="event1" data-toggle="modal" data-event="Best Out of E-Waste" data-target="#eventsModal" id="Event1" class="Fine-Arts">Know More</a>
             </div>
           </div>
         </div>
@@ -351,13 +367,9 @@
           <div class="card-body">
             <h5 class="card-title">Maze Racing</h5>
             <p class="card-text">
-              No of Member(s): NA<br>
-              Time: NA<br>
-              Registration fees: NA<br>
-              Prize: NA<br>
-              Rules: NA
+              Get your hands on Maze Racing, a pay and play event!
             </p>
-            <a href="#" name="subEvent" data-toggle="modal" data-target="#registerModal" class="btn gradient-button">Register Now</a>
+            <a href="#" name="subEvent" data-toggle="modal" data-event="Maze Racing" data-target="#eventsModal" class="btn Sub gradient-button">Know More</a>
           </div>
         </div>
       </div>
@@ -375,13 +387,9 @@
           <div class="card-body">
             <h5 class="card-title">PUBG</h5>
             <p class="card-text">
-              No of Member(s): Solo/Squad<br>
-              Time: 60 mins<br>
-              Registration fees: NA<br>
-              Prize: NA<br>
-              Rules: NA
+              3 classic room matches will be played. Average of these matches will be taken to decide the 1st, 2nd and 3rd positions.
             </p>
-            <a href="#" name="subEvent" data-toggle="modal" data-target="#registerModal" class="btn gradient-button">Register Now</a>
+            <a href="#" name="subEvent" data-toggle="modal" data-event="PUBG" data-target="#eventsModal" class="btn Sub gradient-button">Know More</a>
           </div>
         </div>
       </div>
@@ -399,13 +407,9 @@
           <div class="card-body">
             <h5 class="card-title">Treasure Hunt</h5>
             <p class="card-text">
-              No of Member(s): 5<br>
-              Time: 120 mins<br>
-              Registration fees: 50 Rs.<br>
-              Prize: 500 Rs.<br>
-              Rules: NA<br>
+              Level after another, get closer to the treasure, be intelligent, smarter and faster to reach the ultimate goal!
             </p>
-            <a href="#" name="subEvent" data-toggle="modal" data-target="#registerModal" class="btn gradient-button">Register Now</a>
+            <a href="#" name="subEvent" data-toggle="modal" data-event="Treasure Hunt" data-target="#eventsModal" class="btn Sub gradient-button">Know More</a>
           </div>
         </div>
       </div>
@@ -414,22 +418,18 @@
     <div class="col-md-3">
       <div class="card-container">
         <div class="card card-front">
-          <img class="card-img-top" src="assets\images\sub-events\T Shirt Painting.jpg" alt="Card image cap">
+          <img class="card-img-top" src="assets\images\sub-events\Rubic's Cube.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="sub-card-title card-title">T-Shirt Painting</h5>
+            <h5 class="sub-card-title card-title">Rubic's Cube</h5>
           </div>
         </div>
         <div class="card card-back">
           <div class="card-body">
-            <h5 class="card-title">T-Shirt Painting</h5>
+            <h5 class="card-title">Rubic's Cube</h5>
             <p class="card-text">
-              No of Member(s): 1<br>
-              Time: 30 mins<br>
-              Registration fees: 0 Rs.<br>
-              Prize: Certificate<br>
-              Rules: NA
+            Solve a 4*4 Rubic's Cube. The fastest one wins!
             </p>
-            <a href="#" name="subEvent" data-toggle="modal" data-target="#registerModal" class="btn gradient-button">Register Now</a>
+            <a href="#" name="subEvent" data-toggle="modal" data-event="Rubic's Cube" data-target="#eventsModal" class="btn Sub gradient-button">Know More</a>
           </div>
         </div>
       </div>
@@ -544,12 +544,12 @@
           </button>
         </div>
         <div class="modal-body" id="eventsModalBody">
-            <p><b>Description: </b><span id="Description"> </span><p><hr>
-            <p><b>Rules: </b><span id="Rules"> </span></p><hr>
+            <p><b>Description: </b><span id="Description"> </span></p><hr/>
+            <p><b>Rules:<br> </b><span id="Rules"> </span></p><hr/>
             <p><b>No of Members: </b><span id="Members"> </span><p>
-            <p><b>Programming Languages: </b><span id="Lang"> </span><p>
+            <p id="languages"><b>Programming Languages: </b><span id="Lang"> </span><p>
             <p><b>Time Limit: </b><span id="Time"> </span><p>
-            <p><b>No of Levels: </b><span id="Levels"> </span><p>
+            <p id="levels"><b>No of Levels: </b><span id="Levels"> </span><p>
             <p><b>Registration Fees: </b><span id="Fees"> </span><p>
             <p><b>Prize: </b><span id="Prize"> </span><p>
         </div>
@@ -596,12 +596,12 @@
     <script type="text/javascript">
     $(document).ready(function(){
       $('body').scrollspy({ target: '#navbar-main'});
-      $(".Event1").click(function(){
+      $(".Tech").click(function(){
         var eventN = $(this).attr('data-event');
         $.ajax({
           type:'POST',
           url:'admin/getEvents.php',
-          data: {eventName:eventN},
+          data: {eventName:eventN, type:"tech"},
           dataType: 'json',
           success: function(data){
               //alert(data);
@@ -620,14 +620,76 @@
              $('#Rules').html(rules);
              $('#Members').html(members);
              $('#Lang').html(languages);
-             $('#Time').html(time +  " mins");
+             $('#Time').html(time);
              $('#Levels').html(levels);
-             $('#Fees').html(fees + " Rs.");
+             $('#Fees').html(fees);
              $('#Prize').html(prize);
           }
         }).fail(function(){
           alert("could not complete");
         });
+    });
+    $(".Fine-Arts").click(function(){
+      var eventN = $(this).attr('data-event');
+      $.ajax({
+        type:'POST',
+        url:'admin/getEvents.php',
+        data: {eventName:eventN, type:"fine_arts"},
+        dataType: 'json',
+        success: function(data){
+            //alert(data);
+            var title = data.title;
+            var desc = data.description;
+            var rules = data.rules;
+            var members = data.members;
+            var fees = data.registration_fees;
+            var prize = data.prize;
+            var time = data.time;
+           // $('#eventsModalBody').html(data);
+           $('#eventsModalTitle').html('<p>'+title+'</p>');
+           $('#Description').html(desc);
+           $('#Rules').html(rules);
+           $('#Members').html(members);
+           $('#languages').hide();
+           $('#Time').html(time);
+           $('#levels').hide();
+           $('#Fees').html(fees);
+           $('#Prize').html(prize);
+        }
+      }).fail(function(){
+        alert("could not complete");
+      });
+    });
+    $(".Sub").click(function(){
+      var eventN = $(this).attr('data-event');
+      $.ajax({
+        type:'POST',
+        url:'admin/getEvents.php',
+        data: {eventName:eventN, type:"sub"},
+        dataType: 'json',
+        success: function(data){
+            //alert(data);
+            var title = data.title;
+            var desc = data.description;
+            var rules = data.rules;
+            var members = data.members;
+            var fees = data.registration_fees;
+            var prize = data.prize;
+            var time = data.time;
+           // $('#eventsModalBody').html(data);
+           $('#eventsModalTitle').html('<p>'+title+'</p>');
+           $('#Description').html(desc);
+           $('#Rules').html(rules);
+           $('#Members').html(members);
+           $('#languages').hide();
+           $('#Time').html(time);
+           $('#levels').hide();
+           $('#Fees').html(fees);
+           $('#Prize').html(prize);
+        }
+      }).fail(function(){
+        alert("could not complete");
+      });
     });
   });
    </script>
