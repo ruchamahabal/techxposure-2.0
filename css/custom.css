@@ -698,9 +698,9 @@ padding:70px 0px 0px 0px;
 }
 .price-card {
   position: relative;
-  max-width: 500px;
+  max-width: 400px;
   height: auto;
-  border-radius: 25px;
+  border-radius: 15px;
   padding: 40px 20px;
   margin: 20px auto;
   box-shadow: 0 10px 15px rgba(0,0,0,.5);
@@ -717,10 +717,10 @@ padding:70px 0px 0px 0px;
 }
 .col:nth-child(3) .price-card,
 .col:nth-child(3) .price-card .title .fa{
-  background: linear-gradient(-45deg, #f403d1, #64b5f6);
+  background: linear-gradient(-45deg, #00fff4,#00e5db,#00ccc3,#00b2aa,#009992,#007f7a);
 }
 .price-card::before{
-  content:'';
+  
   position: absolute;
   bottom: 0;
   left: 0;
@@ -733,23 +733,21 @@ padding:70px 0px 0px 0px;
 .title .culturalIcon{
   color:#fff;
   font-size: 60px;
-  width: 120px;
-  height:120px;
+  width: 100px;
+  height:100px;
   border-radius: 50%;
   text-align: center;
-  line-height: 120px;
+  line-height: 100px;
   box-shadow: 0 10px 10px rgba(0,0,0,.1);
 }
 
 .title h2{
   position: relative;
   margin:20px 0 0;
-  padding: 0;
+  padding 0;
   color:#fff;
-  font-size: 26px;
-  z-index: 2;
-  font-family: protos, serif;
-  color:white;
+  font-size: 28px;
+  z-index: 2
 }
 
 .price{
@@ -774,7 +772,7 @@ padding:70px 0px 0px 0px;
   margin:0 0 10px;
   padding:0;
   list-style: none;
-  color: #fff;
+  color #fff;
   font-size: 16px;
 }
 
@@ -801,6 +799,7 @@ padding:70px 0px 0px 0px;
 .price-card:hover{
   transform: scale(1.1);
 }
+
 
 /* Footer */
 #footer {

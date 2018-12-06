@@ -253,7 +253,7 @@
 <!-- CULTURAL EVENTS -->
 
 <section id="cultural-events">
-  <h1 align=center>Cultural Events</h1>
+  <h1 align=center>Fine Arts Events</h1>
     <div class="container-fluid">
       <div class="container">
         <div class="row">
@@ -262,7 +262,7 @@
               <div class="title">
                 <!-- <i class="fa fa-music"></i> -->
                 <img class="culturalIcon" src="assets\icons\Dance Battle.svg" alt="NA">
-                <h2>Free Style Dance Battle</h2>
+                <h2>Quilling</h2>
               </div>
               <div class="price">
                 <h4>Registration Fees: NA</h4>
@@ -284,7 +284,29 @@
               <div class="title">
                 <!-- <i class="fa fa-paper-plane"></i> -->
                 <img class="culturalIcon" src="assets\icons\Instrumental.svg" alt="NA">
-                <h2>Instrumental</h2>
+                <h2>T-Shirt Paintaing</h2>
+              </div>
+              <div class="price">
+                <h4>Registration Fees: NA</h4>
+              </div>
+              <div class="option">
+                <ul>
+                  <li>Details</li>
+                  <li>Rules: NA</li>
+                  <li>Time: NA</li>
+                  <li>No of Members: 1 to 5</li>
+                  <li>Prize: NA</li>
+                </ul>
+              </div>
+              <a href="#" name="culturalEvent" data-toggle="modal" data-target="#registerModal">Register Now</a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center price-card">
+              <div class="title">
+                <!-- <i class="fa fa-paper-plane"></i> -->
+                <img class="culturalIcon" src="assets\icons\Instrumental.svg" alt="NA">
+                <h2>Best out of E-Waste</h2>
               </div>
               <div class="price">
                 <h4>Registration Fees: NA</h4>
