@@ -418,7 +418,7 @@ video{
    padding-top:70px;
 }
 #tech-events .event-row{
-  margin:50px;
+  /* margin:50px; */
 }
 #tech-events .card-img-top{
     width: 100%;
@@ -426,7 +426,7 @@ video{
     object-fit: cover;
 }
 #tech-events .tech-card{
-   width: 300px;
+   width: 18rem;
    margin:50px 0;
 }
 #tech-events .tech-card-title{
@@ -747,10 +747,10 @@ padding:70px 0px 0px 0px;
 .title h2{
   position: relative;
   margin:20px 0 0;
-  padding 0;
-  color:#fff;
+  padding: 0px;
+  color: #fff;
   font-size: 28px;
-  z-index: 2
+  z-index: 2;
 }
 
 .price{
@@ -775,7 +775,7 @@ padding:70px 0px 0px 0px;
   margin:0 0 10px;
   padding:0;
   list-style: none;
-  color #fff;
+  color: #fff;
   font-size: 16px;
 }
 
@@ -893,7 +893,9 @@ padding:70px 0px 0px 0px;
     margin-left: -10px;
     margin-right: -10px;
   } */
-
+  #tech-events .event-row{
+    margin:0;
+  }
   #hidden-col1 , #hidden-col2{
     display: none;
   }
@@ -908,10 +910,9 @@ padding:70px 0px 0px 0px;
   #sub-events h1{
     padding-top:20px;
   }
-
-  /* #sub-events .col-md-3{
-    margin-left:-25px;
-  } */
+   #sub-events .sub-row{
+    margin:0;
+  }
   #maps {
     max-width: 420px;
   }
@@ -970,10 +971,10 @@ padding:70px 0px 0px 0px;
   #about-us2 {
     display: none;
   }
-  /* #tech-events .col{
-    margin-left: -20px;
-    margin-right: -20px;
-  } */
+
+   #tech-events .event-row{
+    margin:0;
+  }
    #hidden-col1 , #hidden-col2{
     display: none;
   }
@@ -988,11 +989,10 @@ padding:70px 0px 0px 0px;
   #sub-events h1{
     padding-top:20px;
   }
-
-  /* #sub-events .col-md-3{
-    margin-left:-25px;
-    margin-right:-25px;
-  } */
+  #sub-events .sub-row{
+    margin:0;
+  }
+  
   #maps {
     max-width: 420px;
   }
