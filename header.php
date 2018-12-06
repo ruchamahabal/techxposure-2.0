@@ -39,7 +39,7 @@
               <a class="nav-link" href="#hero-section">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about-us">About Us</a>
+              <a class="nav-link" href="#about-us-new">About Us</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

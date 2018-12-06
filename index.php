@@ -10,7 +10,25 @@
 
 
 <!--ABOUT US -->
-<div id="about-us2">
+<section id="about-us-new">
+  <div id="about-us-mobile">
+    <h1><center>ABOUT US</center></h1>
+    <div class="row" id="about-sk-mobile-content">
+      <h2 align=center>S.K. Somaiya College</h2>
+      <p>The College is one of the few young institutions of Somaiya Vidyavihar campus which has, within a very short span established a prestigious name in the field of education. The college made a modest beginning in the year 1995 with 300 students offering just two educational streams. Today it proudly boasts of educating more than 5500 students every year and offering 15 diverse Under-Graduate, Post-Graduate courses.</p>
+    </div>
+    <div class="row" >
+      <img id="about-sk-mobile-image" src="assets/images/SK.jpg">
+    </div>
+    <div class="row" id="about-txp-mobile-content">
+      <h2 align=center>TechXposure 2.0</h2>
+      <p>TechXposure 2.0, the most celebrated Techno-Cultural fest of the year, is personified by the next generation's charisma and exuberance, brought to life by the SK Somaiya CS & IT department. "The Stepping Stone to Greatness is Competitiveness" hence the SK Somaiya family bring you this great opportunity to flaunt your artistic skills, groovy moves and play the most nerve wracking and brain teasing tech challenges.</p>       
+    </div>
+    <div class="row">
+      <img id="about-txp-mobile-image" src="assets/images/txp-team.jpg">
+    </div>
+  </div>
+  <div id="about-us2">
   <h1><center>ABOUT US</center></h1>
   <section id="about-somaiya">
     <div class="row">
@@ -33,30 +51,10 @@
     </div>
   </section>
 </div>
+</section>
 
-<div id="about-us-mobile">
-  <h1><center>ABOUT US</center></h1>
-  <div class="container">
-    <div class="row">
-      <div class="col" id="about-sk-mobile-content">
-        <h2 align=center>S.K. Somaiya College</h2>
-        <p>The College is one of the few young institutions of Somaiya Vidyavihar campus which has, within a very short span established a prestigious name in the field of education. The college made a modest beginning in the year 1995 with 300 students offering just two educational streams. Today it proudly boasts of educating more than 5500 students every year and offering 15 diverse Under-Graduate, Post-Graduate courses.</p>
-      </div>
-      <div class="col" >
-        <img id="about-sk-mobile-image" src="assets/images/SK.jpg">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col" id="about-txp-mobile-content">
-        <h2 align=center>TechXposure 2.0</h2>
-        <p>TechXposure 2.0, the most celebrated Techno-Cultural fest of the year, is personified by the next generation's charisma and exuberance, brought to life by the SK Somaiya CS & IT department. "The Stepping Stone to Greatness is Competitiveness" hence the SK Somaiya family bring you this great opportunity to flaunt your artistic skills, groovy moves and play the most nerve wracking and brain teasing tech challenges.</p>       
-      </div>
-      <div class="col">
-        <img id="about-txp-mobile-image" src="assets/images/txp-team.jpg">
-      </div>
-    </div>
-  </div>
-</div>
+
+
 
 
 <!-- ABOUT US -->
