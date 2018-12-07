@@ -429,7 +429,7 @@
             <p class="card-text">
             Solve a 4*4 Rubic's Cube. The fastest one wins!
             </p>
-            <a href="#" name="subEvent" data-toggle="modal" data-event="Rubic's Cube" data-target="#eventsModal" class="btn Sub gradient-button">Know More</a>
+            <a href="#" name="subEvent" data-toggle="modal" data-event="Rubic's Cubea" data-target="#eventsModal" class="btn Sub gradient-button">Know More</a>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Dec 06, 2018 at 06:29 PM
+-- Generation Time: Dec 07, 2018 at 06:40 AM
 -- Server version: 5.7.19
 -- PHP Version: 5.6.31
 
@@ -156,12 +156,12 @@ CREATE TABLE IF NOT EXISTS `tech_events` (
 --
 
 INSERT INTO `tech_events` (`id`, `title`, `description`, `rules`, `members`, `languages`, `registration_fees`, `prize`, `time`, `levels`) VALUES
-(1, 'CodeMapper', 'Get your brains thinking in this amazing Python Coding Challenge!', 'NA', '1', 'Python', '30', 'Trophy', '120', 1),
-(2, 'Error Hunt', 'Test how observant and speedy you are by finding the errors in the 3 Java or C++ snippets given to you, as fast\r\nas possible!', 'NA', '1', 'C++, Java', '20', 'Winner: 300 Rs.\r\nRunner up: 150 Rs.\r\n', '60', 3),
-(3, 'Blind Coding', 'Master of Code? Blind Coding should be an easy task for you then! Participants will have their monitors shut as\r\nthey race against time and of course other programmers to code 1 simple program in Java. Winner takes all!\r\n', 'NA', '1', 'Java', '20', '300 Rs.', '60', 1),
+(1, 'CodeMapper', 'Get your brains thinking in this amazing Python Coding Challenge!', '1. Three python levels to be solved as a part of the challenge.<br>\r\n2. Access to any electronic media is prohibited.<br>\r\n3. Compilation is allowed only ten times in the entire challenge.', '1', 'Python', '30', 'Trophy + Certificate', '2 hrs', 1),
+(2, 'Error Hunt', 'Test how observant and speedy you are by finding the errors in the 3 Java or C++ snippets given to you, as fast\r\nas possible!', '', '1', 'C++, Java', '20', 'Winner: 300 Rs.\r\nRunner up: 150 Rs.\r\n', '1 hr', 3),
+(3, 'Blind Coding', 'Master of Code? Blind Coding should be an easy task for you then! Participants will have their monitors shut as\r\nthey race against time and of course other programmers to code 1 simple program in Java. Winner takes all!\r\n', '1. You can only switch on the monitor when you submit the final code.<br>\r\n2. Evaluation will be based on how much error free your code is.', '1', 'Java', '20', '300 Rs.', '60', 1),
 (4, 'Photoshop', 'Inspired by James Friedman?! We got your backs! Come here and showcase how creative you can get with your\r\nPhotoshop skills and how fast you can come up with exemplary ideas in a pinch situation!', 'NA', '1', 'NA', '50', '300 Rs.', '60', 1),
 (5, 'Code In Less', 'Fan of optimization? Prepare the Best code using as few lines and resources as possible and solve the problem in the most fashionable\r\nway possible! Choose from either c++, Java or Python, but most importantly, choose wisely.\r\n', 'NA', '1', 'PHP, Java, Python, C++', '20', '300 Rs.', '60', 1),
-(6, 'Switch Hero', 'Venture into the wilderness of creating codes for the corporates! Write codes which will be completed by your partner\r\nwithout any means of communication!<br> Consequently, complete his code in as less time as possible and become The\r\nUltimate Switch Hero!\r\n<br>\r\n2 man teams, race against a time limit of 1:30 hrs', 'NA', '2', 'Java, Python', '30', '400 Rs.', '90', 1),
+(6, 'Switch Hero', 'Venture into the wilderness of creating codes for the corporates! Write codes which will be completed by your partner\r\nwithout any means of communication!<br> Consequently, complete his code in as less time as possible and become The\r\nUltimate Switch Hero!\r\n<br>\r\n2 man teams, race against a time limit of 1:30 hrs', '1. The switch will be done either after completing 5 lines of code or after every ten minutes.<br>\r\n2. Switching will happen till both the team members finish their code or the time limit is exceeded. ', '2', 'Java, Python', '30', '400 Rs.', '1 hr 30 mins', 1),
 (7, 'Quiz', 'Got a Million Tera Bytes of Tech Data in your head? Participate in the Ultimate quizzing event and go from Self\r\nProclaimed Tech Guru to Certified Tech Guru! Take from your past experiences of gaming and tech knowledge to\r\nmake your competition bite the dust!\r\n<br>\r\nLevel 1: Evolution of Games\r\n<br>\r\nLevel 2: Tech Quiz', 'NA', '1', 'NA', '0', 'Certificate', '120', 2),
 (8, 'Tech Debate', 'Indulge yourself in the most productive event at TXP 2.0 as you debate your way along the most controversial tech\r\ntopics and showcase not just new ideas but win people\'s hearts with the amazing deductions and best possible\r\nconclusions!', 'NA', '2 to 5', 'NA', '0', 'NA', '10', 1),
 (9, 'Code Relay', 'Level 1: Prepare codes in as many languages as possible using the input output set given to you!\r\nTeam to get expected outputs in as many languages as possible wins! 2PC\'s Per team\r\n<br>Level 2: Put your cognitive abilities to the test as you analyse the given code and translate it into another language!', 'NA', '1 to 3', 'NA', '30', 'Trophy', '120', 2),
