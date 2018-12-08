@@ -55,10 +55,9 @@
                   <option>Quilling</option>
                   <option>T-shirt Painting</option>
               </select>
-
           </div>
 
-          <input align=center type="submit" class="btnRegister"  value="Register"/>
+          <input type="submit" class="btnRegister"  value="Register"/>
       </div>
   </div>
   </div>
