@@ -169,8 +169,8 @@
             </select>
           </div>
           <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-            <label class="form-check-label" for="exampleCheck1">I confirm that all the information submitted by me is correct to the best of my knowledge</label>
+            <input type="checkbox" class="form-check-input" id="exampleCheck2">
+            <label class="form-check-label" for="exampleCheck2">I confirm that all the information submitted by me is correct to the best of my knowledge</label>
           </div>
           <input type="submit" class="btnRegister"  value="Register"/>
       </div>
@@ -182,5 +182,10 @@
   </div>
 
             </div>
+
+<script>
+  document.getElementById("exampleCheck1").required = true;
+  document.getElementById("exampleCheck2").required = true;
+</script>
 
 <?php include_once 'footer.php' ?>
