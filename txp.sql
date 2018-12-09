@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Dec 07, 2018 at 06:40 AM
+-- Generation Time: Dec 09, 2018 at 11:22 AM
 -- Server version: 5.7.19
 -- PHP Version: 5.6.31
 
@@ -104,6 +104,49 @@ INSERT INTO `fine_arts_events` (`id`, `title`, `description`, `rules`, `members`
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `participants`
+--
+
+DROP TABLE IF EXISTS `participants`;
+CREATE TABLE IF NOT EXISTS `participants` (
+  `name` varchar(50) NOT NULL,
+  `college_name` varchar(100) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `phone` varchar(255) NOT NULL,
+  PRIMARY KEY (`email`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `participants`
+--
+
+INSERT INTO `participants` (`name`, `college_name`, `email`, `phone`) VALUES
+('rucha', 'ruia', 'ruchamahabal2@gmail.com', '9167855097');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `solo_registrations`
+--
+
+DROP TABLE IF EXISTS `solo_registrations`;
+CREATE TABLE IF NOT EXISTS `solo_registrations` (
+  `email` varchar(255) DEFAULT NULL,
+  `event_name` varchar(255) DEFAULT NULL,
+  KEY `email` (`email`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `solo_registrations`
+--
+
+INSERT INTO `solo_registrations` (`email`, `event_name`) VALUES
+('ruchamahabal2@gmail.com', 'Code Mapper'),
+('ruchamahabal2@gmail.com', 'Error Hunt');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `sub_events`
 --
 
@@ -129,6 +172,28 @@ INSERT INTO `sub_events` (`id`, `title`, `description`, `rules`, `members`, `reg
 (2, 'Rubic\'s Cube', 'A puzzle to be solved in the form of a 4-by-4 plastic cube covered with multicoloured squares, which the player has to twist and turn so that all the squares on each face are of the same colour. The fastest one wins!', 'NA', '1', 'FREE', 'NA', 'No time limit. The fastest one wins!'),
 (3, 'PUBG', 'DAY 1: Squad<br>\r\nDAY 2: Duo', '3 classic room matches will be played. Average of these matches will be taken to decide the 1st, 2nd and 3rd positions.\r\n', 'DAY 1: Squad<br>\r\nDAY 2: Duo', 'DAY 1: Squad - Rs. 80 per Team<br>\r\nDAY 2: Duo - Rs. 40 per Team', '1st position - Rs. 800 + Trophy<br>\r\n2nd position - Rs. 600<br>\r\n3rd position - Rs. 300<br>', 'NA'),
 (4, 'Treasure Hunt', 'Level after another, get closer to the treasure, be intelligent, smarter and faster to reach the ultimate goal!', '1. Maximum 5 members in a team.<br>\r\n2. Details of the event will be disclosed at the venue', '1 to 5', 'Rs. 50', 'Rs. 500 + Vouchers', 'NA');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `team_registrations`
+--
+
+DROP TABLE IF EXISTS `team_registrations`;
+CREATE TABLE IF NOT EXISTS `team_registrations` (
+  `email` varchar(255) DEFAULT NULL,
+  `event_name` varchar(255) DEFAULT NULL,
+  `no_of_members` int(11) DEFAULT NULL,
+  KEY `email` (`email`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `team_registrations`
+--
+
+INSERT INTO `team_registrations` (`email`, `event_name`, `no_of_members`) VALUES
+('ruchamahabal2@gmail.com', 'Switch Hero', 2),
+('ruchamahabal2@gmail.com', 'Code Relay', 2);
 
 -- --------------------------------------------------------
 

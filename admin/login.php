@@ -1,7 +1,7 @@
 <?php
 
-//connect to db 
-$conn = new mysqli("localhost","root","akhilesh@123","txp");
+//connect to db
+$conn = new mysqli("localhost","root","","txp");
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
@@ -9,7 +9,7 @@ if ($conn->connect_error) {
 
 //start session
 session_start();
-	
+
 // eve handles alert conditions
 $eve = 0;
 
@@ -18,39 +18,39 @@ if(isset($_POST['username']) and isset($_POST['password']))
 	//Assigning GET values to variables.
 	$username = $_POST['username'];
 	$password = $_POST['password'];
-	
+
 	//SQL query to fetch details
 	$stmt = $conn->prepare("SELECT * FROM `admin_login` WHERE username=?");
 	$stmt->bind_param("s", $username);
 	$stmt->execute();
-	
+
 	//get result of query
 	$result = $stmt->get_result();
-	
+
 	if($result->num_rows == 1)
 	{
 		$creds=$result->fetch_assoc();
-		
+
 		if (password_verify($password, $creds['password'])) {
 			$_SESSION['adminname']= $creds['username'];
-		
+
 			$eve = 1;
 			$stmt->close();
 			//Redirect to homeoage
 			header('Location: dash.php');
 			die();
-		} 
+		}
 		else {
 			$eve = 2;
 		}
 		//Set Variable in Session
-		
+
 	}else
-	{	
+	{
 		//retry
 		$eve = 3;
 	}
-}  
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -63,9 +63,9 @@ if(isset($_POST['username']) and isset($_POST['password']))
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 		<!-- jQuery library -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		
+
 		<!-- Latest compiled JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> 
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="../css/snackbar.css">
 		<link rel="stylesheet" href="../css/loginpage.css">
 	</head>
@@ -95,7 +95,7 @@ if(isset($_POST['username']) and isset($_POST['password']))
 											</div>
 										</div>
 									</div>
-									
+
 								</form>
 							</div>
 						</div>
@@ -105,9 +105,9 @@ if(isset($_POST['username']) and isset($_POST['password']))
 		</div>
 		<div id="snackbar">Alert message..</div>
 	</div>
-		
+
 		<script>
-		
+
 		function showsnack(txt) {
 			// Get the snackbar DIV
 			var x = document.getElementById("snackbar")
@@ -117,9 +117,9 @@ if(isset($_POST['username']) and isset($_POST['password']))
 
 			// After 3 seconds, remove the show class from DIV
 			setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
-		} 
-		
-		
+		}
+
+
 		$(function() {
   $( "#button" ).click(function() {
     $( "#button" ).addClass( "onclic", 250, validate);

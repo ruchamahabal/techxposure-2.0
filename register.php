@@ -19,26 +19,26 @@
       <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
           <h3 class="register-heading">Register for a Solo Event</h3>
+      <form action="admin/solo.php" method="POST">
           <div class="row register-form">
             <div class="col-md-6">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Name *" value="" />
+                <input type="text" name="Name" class="form-control" placeholder="Name *" value="" required/>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="College Name *" value="" />
+                <input type="text" name="collegeName" class="form-control" placeholder="College Name *" value="" required/>
               </div>
               <div class="form-group">
-                  <input type="email" class="form-control" placeholder="Your Email *" value="" />
+                  <input type="email" name="email" class="form-control" placeholder="Your Email *" value="" required/>
               </div>
               <div class="form-group">
-                  <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Your Phone *" value="" />
+                  <input type="text" name="phone" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Your Phone *" value="" required/>
               </div>
           </div>
-      <div class="col-md-6">
-
+        <div class="col-md-6">
           <div class="form-group">
               <label for="solo-events"> Select Events</label>
-              <select class="form-control" multiple name="SoloEvents">
+              <select class="form-control" multiple name="SoloEvents[]" required>
                   <option class="hidden" selected disabled>Tech Events</option><br>
                   <option>Code Mapper</option>
                   <option>Error Hunt</option>
@@ -56,35 +56,38 @@
                   <option>T-shirt Painting</option>
               </select>
           </div>
-
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">I confirm that all the information submitted by me is correct to the best of my knowledge</label>
+          </div>
           <input type="submit" class="btnRegister"  value="Register"/>
       </div>
   </div>
+    </form>
   </div>
   <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
   <h3  class="register-heading">Register for a Team Event</h3>
+  <form action="admin/team.php" method="POST">
   <div class="row register-form">
       <div class="col-md-6">
           <div class="form-group">
-              <input type="text" class="form-control" placeholder="First Name *" value="" />
+              <input type="text" name="Name" class="form-control" placeholder="First Name *" value="" required/>
           </div>
           <div class="form-group">
-              <input type="text" class="form-control" placeholder="College Name *" value="" />
+              <input type="text" name="collegeName" class="form-control" placeholder="College Name *" value="" required/>
           </div>
           <div class="form-group">
-              <input type="email" class="form-control" placeholder="Email *" value="" />
+              <input type="email" name="email" class="form-control" placeholder="Email *" value="" required/>
           </div>
           <div class="form-group">
-              <input type="number" min="0" max="5" class="form-control" placeholder="No of Team Members *" value=""  required/>
+              <input type="number" name="numberOfMembers" min="0" max="5" class="form-control" placeholder="No of Team Members *" value=""  required/>
           </div>
-
-
       </div>
       <div class="col-md-6">
 
           <div class="form-group">
             <label for="team-events"> Select Events</label>
-            <select class="form-control" multiple name="TeamEvents">
+            <select class="form-control" multiple name="TeamEvents[]" required>
                 <option class="hidden" selected disabled>Tech Events</option>
                 <option>Switch Hero</option>
                 <option>Code Relay</option>
@@ -97,9 +100,14 @@
                 <option>Best out of E-Waste</option>
             </select>
           </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">I confirm that all the information submitted by me is correct to the best of my knowledge</label>
+          </div>
           <input type="submit" class="btnRegister"  value="Register"/>
       </div>
   </div>
+</form>
   </div>
   </div>
   </div>
