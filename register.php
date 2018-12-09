@@ -107,7 +107,7 @@
           <div class="form-group">
               <label for="solo-events"> Select Events</label>
               <select class="form-control" multiple name="SoloEvents[]" required>
-                  <option class="hidden" selected disabled>Tech Events</option><br>
+                  <option class="hidden category" selected disabled>Tech Events</option><br>
                   <option>Code Mapper</option>
                   <option>Error Hunt</option>
                   <option>Code in Less</option>
@@ -117,9 +117,9 @@
                   <option>Web Designing</option>
                   <option>Blind Coding</option>
                   <option>PPT Competition</option>
-                  <option class="hidden"  selected disabled>Sub Events</option>
+                  <option class="hidden category"  selected disabled>Sub Events</option>
                   <option>Rubic's Cube</option>
-                  <option class="hidden"  selected disabled>Fine Arts</option>
+                  <option class="hidden category"  selected disabled>Fine Arts</option>
                   <option>Quilling</option>
                   <option>T-shirt Painting</option>
               </select>
@@ -130,7 +130,7 @@
           </div>
           <input type="submit" class="btnRegister"  value="Register"/>
       </div>
-  </div>
+     </div>
     </form>
   </div>
   <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
@@ -156,20 +156,20 @@
           <div class="form-group">
             <label for="team-events"> Select Events</label>
             <select class="form-control" multiple name="TeamEvents[]" required>
-                <option class="hidden" selected disabled>Tech Events</option>
+                <option class="hidden category" selected disabled>Tech Events</option>
                 <option>Switch Hero</option>
                 <option>Code Relay</option>
                 <option>Tech Exhibition</option>
-                <option class="hidden"  selected disabled>Sub Events</option>
+                <option class="hidden category"  selected disabled>Sub Events</option>
                 <option>Maze Racing</option>
                 <option>PUBG</option>
                 <option>Treasure Hunt</option>
-                <option class="hidden"  selected disabled>Fine Arts</option>
+                <option class="hidden category"  selected disabled>Fine Arts</option>
                 <option>Best out of E-Waste</option>
             </select>
           </div>
           <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
             <label class="form-check-label" for="exampleCheck1">I confirm that all the information submitted by me is correct to the best of my knowledge</label>
           </div>
           <input type="submit" class="btnRegister"  value="Register"/>

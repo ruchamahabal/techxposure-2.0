@@ -18,7 +18,6 @@ function fetchEvent($conn){
       if($resultCheck > 0){
         $row = mysqli_fetch_assoc($result);
       }
-      // echo '<p><h4>'.$row['title'].'</h4></p> <p>'.$row['description'].'</p>';
       $response = json_encode($row);
       echo $response;
 }

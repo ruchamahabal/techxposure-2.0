@@ -11,7 +11,7 @@
 
 <!--ABOUT US -->
 <section id="about-us-new">
-  <div id="about-us-mobile">
+  <div id="about-us-mobile" class="wow fadeInUp">
     <h1 class="heading"><center>ABOUT US</center></h1>
     <div class="row" id="about-sk-mobile-content">
       <h2 align=center>S.K. Somaiya College</h2>

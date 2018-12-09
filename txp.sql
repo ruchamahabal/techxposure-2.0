@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Dec 09, 2018 at 11:22 AM
+-- Generation Time: Dec 09, 2018 at 05:23 PM
 -- Server version: 5.7.19
 -- PHP Version: 5.6.31
 
@@ -116,13 +116,6 @@ CREATE TABLE IF NOT EXISTS `participants` (
   PRIMARY KEY (`email`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `participants`
---
-
-INSERT INTO `participants` (`name`, `college_name`, `email`, `phone`) VALUES
-('rucha', 'ruia', 'ruchamahabal2@gmail.com', '9167855097');
-
 -- --------------------------------------------------------
 
 --
@@ -135,14 +128,6 @@ CREATE TABLE IF NOT EXISTS `solo_registrations` (
   `event_name` varchar(255) DEFAULT NULL,
   KEY `email` (`email`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `solo_registrations`
---
-
-INSERT INTO `solo_registrations` (`email`, `event_name`) VALUES
-('ruchamahabal2@gmail.com', 'Code Mapper'),
-('ruchamahabal2@gmail.com', 'Error Hunt');
 
 -- --------------------------------------------------------
 
@@ -186,14 +171,6 @@ CREATE TABLE IF NOT EXISTS `team_registrations` (
   `no_of_members` int(11) DEFAULT NULL,
   KEY `email` (`email`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `team_registrations`
---
-
-INSERT INTO `team_registrations` (`email`, `event_name`, `no_of_members`) VALUES
-('ruchamahabal2@gmail.com', 'Switch Hero', 2),
-('ruchamahabal2@gmail.com', 'Code Relay', 2);
 
 -- --------------------------------------------------------
 
