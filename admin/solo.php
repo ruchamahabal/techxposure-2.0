@@ -27,7 +27,7 @@ $subject = "Registration Successful";
 $headers = "From: " . $mailFrom;
 
 $events="";
-foreach ($$SoloEvents as $eventStr){
+foreach ($SoloEvents as $eventStr){
   $events = $eventStr ."\n";
 }
 $txt = "You successfully registered for the following events \n" . $events;

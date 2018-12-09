@@ -12,7 +12,7 @@
 <!--ABOUT US -->
 <section id="about-us-new">
   <div id="about-us-mobile">
-    <h1><center>ABOUT US</center></h1>
+    <h1 class="heading"><center>ABOUT US</center></h1>
     <div class="row" id="about-sk-mobile-content">
       <h2 align=center>S.K. Somaiya College</h2>
       <p>The College is one of the few young institutions of Somaiya Vidyavihar campus which has, within a very short span established a prestigious name in the field of education. The college made a modest beginning in the year 1995 with 300 students offering just two educational streams. Today it proudly boasts of educating more than 5500 students every year and offering 15 diverse Under-Graduate, Post-Graduate courses.</p>
@@ -29,8 +29,8 @@
     </div>
   </div>
   <div id="about-us2">
-  <h1><center>ABOUT US</center></h1>
-  <section id="about-somaiya">
+  <h1 class="heading"><center>ABOUT US</center></h1>
+  <section id="about-somaiya" class="wow fadeInUp">
     <div class="row">
         <div class="col content">
             <h2>S.K. Somaiya College</h2>
@@ -40,7 +40,7 @@
         </div>
     </div>
   </section>
-  <section id="about-txp">
+  <section id="about-txp" class="wow fadeInUp">
     <div class="row">
         <div class="col image-box">
         </div>
@@ -53,86 +53,17 @@
 </div>
 </section>
 
-
-
-
-
-<!-- ABOUT US -->
-<!-- <div id="bg-colored-about-us">
-<section class="se-container">
-	<div class="se-slope sl-slope-black">
-		<article class="se-content">
-			<h3>Some headline</h3>
-			<p>Some text</p>
-		</article>
-	</div>
-	<div class="se-slope sl-slope-pink">
-    <article>
-    <h3>Are you ready?</h3>
-          <p>Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb.</p>
-        </article>
-	</div>
-</section>
-</div> -->
-
-<!-- ABOUT US OLD-->
-
-<!-- <section id="about-us" class="about-us">
-  <h1><center>ABOUT US</center></h1>
-
-  <div class="row outer-row">
-      <div class="col">
-        <img src="assets/images/SK.jpg" class="rounded image-card"  alt="NA">
-      </div>
-      <div class="col">
-          <div class="row">
-            <div class="col-4">
-              <img class="icon-edu img-fluid" id="about-us-icon" src="assets/icons/edu.png">
-            </div>
-            <div class="col-8 about-us-icon-title" id="about-us-icon-title">
-              <h4>S.K. Somaiya College</h4>
-            </div>
-
-          </div><br>
-          <div class="">
-            <p id="about-us-text1">The College is one of the few young institutions of Somaiya Vidyavihar campus which has, within a very short span established a prestigious name in the field of education. The college made a modest beginning in the year 1995 with 300 students offering just two educational streams. Today it proudly boasts of educating more than 5500 students every year and offering 15 diverse Under-Graduate, Post-Graduate courses.</p>
-          </div>
-      </div>
-  </div>
-  <div class="row outer-row">
-      <div class="col">
-        <div class="row">
-          <div class="col-4">
-            <img class="icon-tech img-fluid" id="about-us-icon"src="assets/icons/technology.png">
-          </div>
-          <div class="col-8 about-us-icon-title" id="about-us-icon-title">
-            <h4>TechXposure 2.0</h4>
-          </div>
-
-        </div><br>
-
-          <div class="">
-           <p id="about-us-text2">TechXposure 2.0, the most celebrated Techno-Cultural fest of the year, is personified by the next generation's charisma and exuberance, brought to life by the SK Somaiya CS & IT department. "The Stepping Stone to Greatness is Competitiveness" hence the SK Somaiya family bring you this great opportunity to flaunt your artistic skills, groovy moves and play the most nerve wracking and brain teasing tech challenges.</p>
-         </div>
-      </div>
-      <div class="col">
-        <img src="assets/images/txp-team.jpg" class="rounded image-card" alt="NA">
-      </div>
-  </div>
-</section> -->
-
-
 	<!-- TECH EVENTS -->
   <section id="tech-events">
   <div>
     <div class="row">
       <div class="col">
-        <h1><center>TECH EVENTS</center></h1>
+        <h1 class="heading"><center>TECH EVENTS</center></h1>
       </div>
     </div>
     <div class="row event-row" align=center>
       <!-- Event 1 -->
-      <div class="col">
+      <div class="col wow slideInLeft">
         <div class="card tech-card gradient-shadow">
           <img class="card-img-top" src="assets\images\tech-events\CodeMapper.jpg" alt="Card image cap">
           <div class="card-body">
@@ -143,7 +74,7 @@
         </div>
       </div>
       <!-- Event 2 -->
-      <div class="col">
+      <div class="col wow slideInLeft">
         <div class="card tech-card gradient-shadow">
           <img class="card-img-top" src="assets\images\tech-events\Code Error Hunting.jpg" alt="Card image cap">
           <div class="card-body">
@@ -154,7 +85,7 @@
         </div>
       </div>
       <!-- Event 3 -->
-      <div class="col">
+      <div class="col wow slideInLeft">
         <div class="card tech-card gradient-shadow">
           <img class="card-img-top" src="assets\images\tech-events\Code In Less.jpg" alt="Card image cap">
           <div class="card-body">
@@ -164,7 +95,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col wow slideInLeft">
         <div class="card tech-card gradient-shadow">
           <img class="card-img-top" src="assets\images\tech-events\Photoshop.jpg" alt="Card image cap">
           <div class="card-body">
@@ -178,7 +109,7 @@
   </div>
   <div>
     <div class="row event-row" align=center>
-      <div class="col">
+      <div class="col wow slideInRight">
         <div class="card tech-card gradient-shadow">
           <img class="card-img-top" src="assets\images\tech-events\Quiz.jpg" alt="Card image cap">
           <div class="card-body">
@@ -188,7 +119,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col wow slideInRight">
         <div class="card tech-card gradient-shadow">
           <img class="card-img-top" src="assets\images\tech-events\Tech Debate.jpg" alt="Card image cap">
           <div class="card-body">
@@ -198,7 +129,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col wow slideInRight">
         <div class="card tech-card gradient-shadow">
           <img class="card-img-top" src="assets\images\tech-events\Web Designing.jpg" alt="Card image cap">
           <div class="card-body">
@@ -208,7 +139,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col wow slideInRight">
         <div class="card tech-card gradient-shadow">
           <img class="card-img-top" src="assets\images\tech-events\Blind Coding.jpg" alt="Card image cap">
           <div class="card-body">
@@ -224,7 +155,7 @@
     <div class="row event-row" align=center>
       <!-- <div class="col" id="hidden-col1">
       </div> -->
-      <div class="col">
+      <div class="col wow slideInLeft">
         <div class="card tech-card gradient-shadow">
           <img class="card-img-top" src="assets\images\tech-events\PPT Presentation.jpg" alt="Card image cap">
           <div class="card-body">
@@ -234,7 +165,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col wow slideInLeft">
         <div class="card tech-card gradient-shadow">
           <img class="card-img-top" src="assets/images/tech-events/Switch Heroes.jpg" alt="Card image cap">
           <div class="card-body">
@@ -244,7 +175,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col wow slideInLeft">
         <div class="card tech-card gradient-shadow">
           <img class="card-img-top" src="assets\images\tech-events\Multi Language.jpg" alt="Card image cap">
           <div class="card-body">
@@ -254,7 +185,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col wow slideInLeft">
         <div class="card tech-card gradient-shadow">
           <img class="card-img-top" src="assets\images\tech-events\Exhibition.jpg" alt="Card image cap">
           <div class="card-body">
@@ -271,11 +202,11 @@
 <!-- CULTURAL EVENTS -->
 
 <section id="cultural-events">
-  <h1 align=center>Fine Arts Events</h1>
+  <h1 class="heading"><center>Fine Arts Events</center></h1>
     <div class="container-fluid">
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col wow bounceIn">
             <div class="card text-center price-card">
               <div class="title">
                 <!-- <i class="fa fa-music"></i> -->
@@ -297,7 +228,7 @@
               <!-- <a href="#" name="culturalEvent" data-toggle="modal" data-target="#registerModal">Register Now</a> -->
             </div>
           </div>
-          <div class="col">
+          <div class="col wow bounceIn">
             <div class="card text-center price-card">
               <div class="title">
                 <!-- <i class="fa fa-paper-plane"></i> -->
@@ -318,7 +249,7 @@
               <a href="#" name="event1" data-toggle="modal" data-event="T-Shirt Painting" data-target="#eventsModal" id="Event1" class="Fine-Arts">Know More</a>
             </div>
           </div>
-          <div class="col">
+          <div class="col wow bounceIn">
             <div class="card text-center price-card">
               <div class="title">
                 <!-- <i class="fa fa-paper-plane"></i> -->
@@ -350,12 +281,12 @@
 <div>
   <div class="row">
     <div class="col">
-      <h1><center>SUB EVENTS</center></h1>
+      <h1 class="heading"><center>SUB EVENTS</center></h1>
     </div>
   </div>
   <div class="row sub-row" align=center>
     <!-- Event 1 -->
-    <div class="col-md-3">
+    <div class="col-md-3 wow flipInX">
       <div class="card-container">
         <div class="card card-front">
           <img class="card-img-top" src="assets\images\sub-events\maze.jpg" alt="Card image cap">
@@ -375,7 +306,7 @@
       </div>
     </div>
     <!-- Event 1 -->
-    <div class="col-md-3">
+    <div class="col-md-3 wow flipInX">
       <div class="card-container">
         <div class="card card-front">
           <img class="card-img-top" src="assets\images\sub-events\PUBG.jpg" alt="Card image cap">
@@ -395,7 +326,7 @@
       </div>
     </div>
     <!-- Event 1 -->
-    <div class="col-md-3">
+    <div class="col-md-3 wow flipInX">
       <div class="card-container">
         <div class="card card-front">
           <img class="card-img-top" src="assets\images\sub-events\Treasure Hunt-2.jpg" alt="Card image cap">
@@ -415,7 +346,7 @@
       </div>
     </div>
     <!-- Event 1 -->
-    <div class="col-md-3">
+    <div class="col-md-3 wow flipInX">
       <div class="card-container">
         <div class="card card-front">
           <img class="card-img-top" src="assets\images\sub-events\Rubic's Cube.jpg" alt="Card image cap">
@@ -443,7 +374,7 @@
   <section id="sponsors" class="sponsors">
     <div class="row">
       <div class="col">
-        <h1><center>OUR SPONSORS</center></h1>
+        <h1 class="heading"><center>OUR SPONSORS</center></h1>
       </div>
     </div>
     <div class="swiper-container">
@@ -495,18 +426,8 @@
  </section>
 
 <section id="contact-section" style="margin:0px; padding:0;color:white;">
-  <div class="row">
+  <div class="row wow fadeInUp">
     <div class="col">
-      <!-- <h1 align=center>Contact Us</h1>
-      <form class="" method="post">
-        <h4>Name</h4>
-        <input type="text" name="name" value="" placeholder="Enter Name" required><br><br>
-        <h4>Contact Number</h4>
-        <input type="text" name="contact-no" placeholder="Enter Contact Number" required><br><br>
-        <h4>Query</h4>
-        <textarea name="query" rows="8" cols="80"></textarea><br><br>
-        <a href="#" name="event1" data-toggle="modal" data-target="#eventsModal" id="Event1" class="btn gradient-button">Submit</a>
-      </form> -->
       <div style="padding:15px;">
         <h1 style="font-family:protos,sans-serif;"><i class="far fa-envelope"></i>  Email</h1>
         <p><b>  techxposuretxp@gmail.com</b></p>
@@ -582,7 +503,11 @@
    </div>
  </div>
 </div>
-
+<!-- wow.js -->
+<script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
     <?php include_once 'footer.php'; ?>
     <script type="text/javascript">
     $(function(){

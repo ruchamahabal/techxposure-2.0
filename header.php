@@ -26,7 +26,8 @@
     <!-- form css -->
     <link rel="stylesheet" type="text/css" href="css/form.css">
 
-
+    <!-- animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
   </head>
   <body>
 
