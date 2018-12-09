@@ -562,6 +562,7 @@
     </div>
   </div>
 
+
   <!-- register modal -->
   <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
    <div class="modal-dialog" role="document">
@@ -591,7 +592,6 @@
       });
     });
     </script>
-
 
     <script type="text/javascript">
     $(document).ready(function(){

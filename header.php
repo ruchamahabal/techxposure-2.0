@@ -63,6 +63,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#contact-section">Contact Us</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.php">Registeration</a>
+            </li>
           </ul>
         </div>
        </nav>
