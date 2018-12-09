@@ -360,7 +360,7 @@
             <p class="card-text">
             Solve a 4*4 Rubic's Cube. The fastest one wins!
             </p>
-            <a href="#" name="subEvent" data-toggle="modal" data-event="Rubic's Cubea" data-target="#eventsModal" class="btn Sub gradient-button">Know More</a>
+            <a href="#" name="subEvent" data-toggle="modal" data-event="Rubic's Cube" data-target="#eventsModal" class="btn Sub gradient-button">Know More</a>
           </div>
         </div>
       </div>
@@ -439,7 +439,7 @@
         </div>
         <div class="col" style="background-color:#053653;padding:15px;">
           <h2 style="font-family:protos,sans-serif;padding:35px 15px;"><i class="fas fa-phone-volume"></i> Phone</h2>
-          <p style="padding-left:15px;">Shubham Singh +91 9987732201<br>Akhilesh Nair &nbsp &nbsp  +91 9920176241</p>
+          <p style="padding-left:15px;">Ansul Mishra &nbsp &nbsp +91 9757204227<br>Akhilesh Nair &nbsp &nbsp  +91 9920176241</p>
         </div>
       </div>
     </div>
@@ -477,32 +477,12 @@
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           <!-- <button type="button" id="register-btn" class="btn btn-info">Register now</button> -->
-          <a href="#" name="register" data-toggle="modal" data-target="#registerModal" class="btn btn-info">Register Now</a>
+          <a href="register.php" name="register" class="btn btn-info">Register Now</a>
         </div>
       </div>
     </div>
   </div>
 
-
-  <!-- register modal -->
-  <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-   <div class="modal-dialog" role="document">
-     <div class="modal-content">
-       <div class="modal-header">
-         <h4 class="modal-title">TXP 2.0 Registrations</h4>
-         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-           <span aria-hidden="true">&times;</span>
-         </button>
-       </div>
-       <div class="modal-body">
-           Registrations Will Open Soon! Stay tuned!
-       </div>
-       <div class="modal-footer">
-         <button type="button" class="btn btn-success" data-dismiss="modal">OK</button>
-     </div>
-   </div>
- </div>
-</div>
 <!-- wow.js -->
 <script src="js/wow.min.js"></script>
 <script>

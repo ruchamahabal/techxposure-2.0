@@ -15,9 +15,10 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-					<p><b>TechXposure 2.0</b> is a Techno-Cultural fest of S.K. Somaiya College of Arts, Science and Commerce</p>
+					<p><h5><b>TechXposure 2.0</b> is a Techno-Cultural fest of S.K. Somaiya College of Arts, Science and Commerce</h5></p>
 					<p class="h6">&copy Copyright 2018-2019 TechXposure 2.0</p>
-          <p class="h6">Designed and Developed By: Rucha Mahabal, Shubham Parchure And Parth Bhinde</p>
+					<p class="h6">Assets by: Om Thakkar and Akhilesh Nair</p>
+          <p class="h6"><h5>Designed and Developed By: Rucha Mahabal, Shubham Parchure And Parth Bhinde</h5></p>
 				</div>
 				</hr>
 			</div>
