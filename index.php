@@ -325,6 +325,25 @@
         </div>
       </div>
     </div>
+    <div class="col-md-3 wow flipInX">
+      <div class="card-container">
+        <div class="card card-front">
+          <img class="card-img-top" src="assets\images\sub-events\CSGO.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="sub-card-title card-title">CS:GO</h5>
+          </div>
+        </div>
+        <div class="card card-back">
+          <div class="card-body">
+            <h5 class="card-title">CS:GO</h5>
+            <p class="card-text">
+            Shoot what you see!
+            </p>
+            <a href="#" name="subEvent" data-toggle="modal" data-target="#regClosed" class="btn Sub gradient-button">Know More</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Event 1 -->
     <div class="col-md-3 wow flipInX">
       <div class="card-container">
@@ -341,26 +360,6 @@
               Level after another, get closer to the treasure, be intelligent, smarter and faster to reach the ultimate goal!
             </p>
             <a href="#" name="subEvent" data-toggle="modal" data-event="Treasure Hunt" data-target="#eventsModal" class="btn Sub gradient-button">Know More</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Event 1 -->
-    <div class="col-md-3 wow flipInX">
-      <div class="card-container">
-        <div class="card card-front">
-          <img class="card-img-top" src="assets\images\sub-events\Rubic's Cube.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="sub-card-title card-title">Rubic's Cube</h5>
-          </div>
-        </div>
-        <div class="card card-back">
-          <div class="card-body">
-            <h5 class="card-title">Rubic's Cube</h5>
-            <p class="card-text">
-            Solve a 4*4 Rubic's Cube. The fastest one wins!
-            </p>
-            <a href="#" name="subEvent" data-toggle="modal" data-event="Rubic's Cube" data-target="#eventsModal" class="btn Sub gradient-button">Know More</a>
           </div>
         </div>
       </div>
@@ -482,6 +481,26 @@
       </div>
     </div>
   </div>
+
+  <div id="regClosed" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Registration</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Registrations for this event will open soon!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-info">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- wow.js -->
 <script src="js/wow.min.js"></script>

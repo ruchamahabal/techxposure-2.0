@@ -7,8 +7,7 @@
     <title> Techxposure 2.0</title>
 
     <!-- Bootstrap css -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css\bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
 
     <!-- font awesome -->
@@ -54,7 +53,7 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#tech-events">Tech Events</a>
-                <a class="dropdown-item" href="#cultural-events">Cultural Events</a>
+                <a class="dropdown-item" href="#cultural-events">Fine Arts Events</a>
                 <a class="dropdown-item" href="#sub-events">Sub Events</a>
               </div>
             </li>

@@ -53,7 +53,7 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="index.php#tech-events">Tech Events</a>
-                <a class="dropdown-item" href="index.php#cultural-events">Cultural Events</a>
+                <a class="dropdown-item" href="index.php#cultural-events">Fine Arts Events</a>
                 <a class="dropdown-item" href="index.php#sub-events">Sub Events</a>
               </div>
             </li>
