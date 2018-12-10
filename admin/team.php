@@ -17,20 +17,36 @@ foreach ($TeamEvents as $event) {
     die("Couldn't enter data: " . mysqli_error($conn));
   }
 }
-// script for email
-$mailFrom = "registrations@techxposure.org";
-$message = $_POST['message'];
-$mailTo = $email;
-$subject = "Registration Successful";
-$headers = "From: " . $mailFrom;
+
+// script for sending email
 
 $events="";
 foreach ($TeamEvents as $eventStr){
   $events = $eventStr ."\n";
 }
-$txt = "You successfully registered for the following events :" . $events;
 
-mail($mailTo, $subject, $txt, $headers);
+// outgoing mail headers
+$mailFromOut = "registrations@techxposure.org";
+$mailToOut = $email;
+$subjectOut = "Registration Successful";
+$headersOut = "From: " . $mailFromOut;
+$txtOut = "You successfully registered for the following events \n" . $events;
+
+// incoming mail headers
+$mailFromIn = $email;
+$mailToIn = "registrations@techxposure.in";
+$subjectIn = "New Registration";
+$headersIn = "From: " . $mailFromIn;
+$txtIn = $Name." registered for following events:".$events;
+
+
+// outgoing mail
+mail($mailToOut, $subjectOut, $txtOut, $headersOut);
+
+// incoming mail
+mail($mailToIn, $subjectIn, $txtIn, $headersIn);
+
 header("Location: ../register.php?RegistrationSuccessful");
 exit();
+
 ?>
