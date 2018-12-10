@@ -517,6 +517,10 @@ video {
     #007f7a
   );
 }
+.col:nth-child(4) .price-card,
+.col:nth-child(4) .price-card .title .fa {
+  background: linear-gradient(-45deg, #f403d1, #64b5f6);
+}
 .price-card::before {
   position: absolute;
   bottom: 0;

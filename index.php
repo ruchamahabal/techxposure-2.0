@@ -211,7 +211,7 @@
               <div class="title">
                 <!-- <i class="fa fa-music"></i> -->
                 <img class="culturalIcon" src="assets\images\fine-arts-events\Quilling.svg" alt="NA">
-                <h2>Quilling</h2>
+                <h2>Quilling<br>&nbsp;</h2>
               </div>
               <div class="price">
                 <h4>Registration Fees: FREE</h4>
@@ -233,7 +233,7 @@
               <div class="title">
                 <!-- <i class="fa fa-paper-plane"></i> -->
                 <img class="culturalIcon" src="assets\images\fine-arts-events\T Shirt Painting.svg" alt="NA">
-                <h2>T-Shirt Painting</h2>
+                <h2>T-Shirt <br>Painting</h2>
               </div>
               <div class="price">
                 <h4>Registration Fees: FREE</h4>
@@ -268,6 +268,27 @@
                 </ul>
               </div>
               <a href="#" name="event1" data-toggle="modal" data-event="Best Out of E-Waste" data-target="#eventsModal" id="Event1" class="Fine-Arts">Know More</a>
+            </div>
+          </div>
+          <div class="col wow bounceIn">
+            <div class="card text-center price-card">
+              <div class="title">
+                <!-- <i class="fa fa-paper-plane"></i> -->
+                <img class="culturalIcon" src="assets/icons/Instrumental.svg" alt="NA">
+                <h2>Instrumental <br>&nbsp;</h2>
+              </div>
+              <div class="price">
+                <h4>Registration Fees: NA</h4>
+              </div>
+              <div class="option">
+                <ul>
+                  <li>Description</li>
+                  <li>Time: NA</li>
+                  <li>No of Members: NA</li>
+                  <li>Prize: NA</li>
+                </ul>
+              </div>
+              <a href="#" name="event1" data-toggle="modal" data-event="T-Shirt Painting" data-target="#eventsModal" id="Event1" class="Fine-Arts">Know More</a>
             </div>
           </div>
         </div>
