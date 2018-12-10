@@ -204,14 +204,13 @@
 <section id="cultural-events">
   <h1 class="heading"><center>Fine Arts Events</center></h1>
     <div class="container-fluid">
-      <div class="container">
         <div class="row">
           <div class="col wow bounceIn">
             <div class="card text-center price-card">
               <div class="title">
                 <!-- <i class="fa fa-music"></i> -->
                 <img class="culturalIcon" src="assets\images\fine-arts-events\Quilling.svg" alt="NA">
-                <h2>Quilling<br>&nbsp;</h2>
+                <h2>Quilling</h2>
               </div>
               <div class="price">
                 <h4>Registration Fees: FREE</h4>
@@ -233,7 +232,7 @@
               <div class="title">
                 <!-- <i class="fa fa-paper-plane"></i> -->
                 <img class="culturalIcon" src="assets\images\fine-arts-events\T Shirt Painting.svg" alt="NA">
-                <h2>T-Shirt <br>Painting</h2>
+                <h2>T-Shirt Painting</h2>
               </div>
               <div class="price">
                 <h4>Registration Fees: FREE</h4>
@@ -275,7 +274,7 @@
               <div class="title">
                 <!-- <i class="fa fa-paper-plane"></i> -->
                 <img class="culturalIcon" src="assets/icons/Instrumental.svg" alt="NA">
-                <h2>Instrumental <br>&nbsp;</h2>
+                <h2>Instrumental</h2>
               </div>
               <div class="price">
                 <h4>Registration Fees: NA</h4>
@@ -292,7 +291,6 @@
             </div>
           </div>
         </div>
-      </div>
     </div>
   </section>
 <!-- CULTURAL EVENTS -->
